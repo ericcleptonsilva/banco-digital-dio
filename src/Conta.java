@@ -49,9 +49,9 @@ public abstract class Conta implements IConta {
 
 
     protected void imprimirInfosComuns() {
-        System.out.printf("Titular: %s%n", this.cliente.getName());
-        System.out.printf("Agencia: %d", this.agencia);
-        System.out.printf("Numero: %d", this.numero);
-        System.out.printf("Saldo: %.2f", this.saldo);
+        System.out.printf("Titular: %s", this.cliente.getName());
+        System.out.printf("\nAgencia: %d", this.agencia);
+        System.out.printf("\nNumero: %d", this.numero);
+        System.out.printf("\nSaldo: %.2f", this.saldo);
     }
 }
